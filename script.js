@@ -11,9 +11,21 @@ const data = {
 // Only edit below
 
 
-const first = data.lists[0][1]
-const second = data.lists[1][1]
-const third = data.lists[2][1]
+// const first = data.lists[0][1]
+// const second = data.lists[1][1]
+// const third = data.lists[2][1]
+
+// Destructured
+
+const {
+	lists: [
+		[, first],
+		[, second],
+		[, third],
+	]
+} = data
+
+
 
 const result = []
 
