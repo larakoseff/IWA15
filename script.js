@@ -10,7 +10,6 @@ const data = {
 
 // Only edit below
 
-// [10, 12, 14, 5, 7, 13, 11, 15, 4, 8, 6, 2, 1, 3, 9]
 
 const first = data.lists[0][1]
 const second = data.lists[1][1]
